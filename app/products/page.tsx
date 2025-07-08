@@ -22,6 +22,7 @@ interface Product {
   reviews_count: number;
   is_featured: boolean;
   category_id: string;
+  created_at: string;
   categories: {
     name: string;
   };
@@ -233,7 +234,7 @@ export default function ProductsPage() {
                 </Badge>
                 {searchQuery && (
                   <Badge variant="outline">
-                    Recherche: "{searchQuery}"
+                    Recherche: {searchQuery}
                   </Badge>
                 )}
                 {selectedCategory !== 'all' && (

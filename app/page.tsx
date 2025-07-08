@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 "use client";
 
 import { useState, useEffect } from 'react';
@@ -37,7 +38,7 @@ const PromotionBanner = () => {
     <div className="bg-gradient-to-r from-yellow-400 via-pink-500 to-purple-600 text-white py-2 overflow-hidden">
       <div className="animate-pulse">
         <div className="whitespace-nowrap animate-marquee">
-          <span className="mx-8">🎉 SOLDES D'ÉTÉ - Jusqu'à 70% de réduction sur une sélection d'articles</span>
+          <span className="mx-8">🎉 SOLDES D ÉTÉ - Jusqu à 70% de réduction sur une sélection d articles</span>
           <span className="mx-8">🚚 Livraison gratuite à partir de 50€</span>
           <span className="mx-8">✨ Nouveautés chaque semaine</span>
           <span className="mx-8">🎁 Offre spéciale : 2 articles achetés = 1 offert</span>
@@ -520,7 +521,7 @@ const Footer = () => {
         </div>
         
         <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 LuxeMarket. Tous droits réservés. Conçu avec ❤️ pour l'élégance.</p>
+          <p>&copy; 2024 LuxeMarket. Tous droits réservés. Conçu avec ❤️ pour l élégance.</p>
         </div>
       </div>
     </footer>

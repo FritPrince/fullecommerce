@@ -1,3 +1,4 @@
+/* eslint-disable @next/next/no-img-element */
 'use client';
 
 import { useState, useEffect } from 'react';
@@ -238,7 +239,7 @@ export default function CategoriesPage() {
                     </Badge>
                     {searchQuery && (
                       <Badge variant="outline">
-                        Recherche: "{searchQuery}"
+                        Recherche: {searchQuery}
                       </Badge>
                     )}
                   </div>
